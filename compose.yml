@@ -1,0 +1,7 @@
+services:
+  app:
+    build: .
+    ports:
+      - "8501:8501"
+    environment:
+      KNOWLEDGE_BASE_ID: "SDSFVTQW" # Replace with your Knowledge Base ID
