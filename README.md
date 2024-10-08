@@ -44,7 +44,7 @@ cd bedrock-knowledge-base-interface
 Build the Docker image and start the container using Docker Compose:
 
 ```bash
-docker-compose up --build
+docker compose up --build
 ```
 
 This will build the Docker image and start the application based on the Dockerfile and ```compose.yml``` configuration.
